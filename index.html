@@ -3,10 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Website</title>
+    <title>Modern SaaS Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #223E4B;
+            color: #ffffff;
+            padding: 20px 10%;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 10px 0 0;
+            font-size: 1rem;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 10%;
+            background-color: #fd7000;
+            color: #ffffff;
+        }
+        .hero h2 {
+            font-size: 2rem;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin: 20px 0;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 30px 10%;
+        }
+        .feature-card {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 15px;
+            padding: 20px;
+            text-align: center;
+            flex: 1;
+            max-width: 300px;
+        }
+        .feature-card h3 {
+            color: #223E4B;
+            margin-bottom: 10px;
+        }
+        .feature-card p {
+            font-size: 0.9rem;
+        }
+        footer {
+            background-color: #223E4B;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 10%;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>Welcome to My First Website!</h1>
-    <p>This is a simple webpage served from my DigitalOcean droplet.</p>
+    <header>
+        <h1>My SaaS Product</h1>
+        <p>Simple. Powerful. Scalable.</p>
+    </header>
+    <section class="hero">
+        <h2>Unlock the Potential of Your Business</h2>
+        <p>Our SaaS platform helps you automate tasks, save time, and grow faster than ever before.</p>
+    </section>
+    <section class="features">
+        <div class="feature-card">
+            <h3>Feature One</h3>
+            <p>Discover insights with advanced analytics tailored for your needs.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Feature Two</h3>
+            <p>Integrate seamlessly with tools you already use and love.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Feature Three</h3>
+            <p>Experience 24/7 support to keep your operations running smoothly.</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 My SaaS Product. All rights reserved.</p>
+    </footer>
 </body>
 </html>
